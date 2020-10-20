@@ -1,0 +1,198 @@
+@font-face{font-family:'OpenSans'; src:url('../font/OpenSans-Regular.ttf') format('truetype');}
+
+body {background-color:#FAF4DF;font-family:OpenSans;text-decoration:none;}
+a {text-decoration:none;}
+
+.panelatas { height:45px;width:100%;background-color:#F0C40D;position:fixed;left:0px;top:0px;
+			border-bottom:5px solid;border-bottom-color:#CEA70C;}
+
+.pa2 { margin:auto;width:940px;margin-top:7px;}
+
+.logo { background-image:url(../images/squen_logo_banner.png);height:30px; }
+
+.b { margin:auto;width:940px;border-left:0px solid;border-right:0px solid;border-color:#CEA70C; }
+.b1 { margin:auto;width:940px;height:40px; }
+.b2 { margin:auto;width:940px;background-color:#FFF; }
+.b21 {  }
+.b211 { float:left; height:24px;width:187px;background-color:#333;text-align:center;font-weight:bold;
+		color:#FFF;padding-top:6px;margin:0px 1px 0px 0px;font-size:14px; }
+.b211:hover { height:22px;border-bottom:3px solid; border-bottom-color:#CEA70C;color:#F0C40D;}
+
+#b211k { width:188px;margin:0px 0px 0px 0px; }
+
+.b22 { margin:auto;width:940px;background-color:#EEE;height:300px;background-image:url(../images/banner_home.jpg)} 
+
+.b23 { float:left;width:640px;background-color:#F7EDCA;}
+
+.b24 { float:left;width:300px;background-color:#EDE4C5;margin-bottom:10px;}
+
+.b3 { float:left; width:940px; background-color:#111;text-align:center;color:#FFF;font-size:11px;padding:5px 0 5px 0;
+		border-top:3px solid; border-top-color:#CEA70C; }
+
+
+.b241 { font-size:20px;padding:5px 10px 5px 10px;
+	background-color:#222;color:#FFF;border-bottom:3px solid; border-bottom-color:#CEA70C; }
+.b2421 { padding:3px 10px 0px 10px;font-size:15px; }
+.b2422 { padding:0px 10px 5px 10px;font-size:12px; border-bottom:1px solid; border-bottom-color:#CEA70C;}
+
+.home_judul { font-size:20px;font-weight:bold; margin:10px 10px 10px 20px;color:#333; }
+
+.judul_kolom { margin:5px 10px 0px 20px;color:#333;font-size:14px;font-weight:bold;}
+.kolom_input { margin:2px 10px 0px 20px;color:#333;font-size:16px;padding-left:5px;width:600px;font-family:OpenSans; }
+.kolom_select { margin:2px 10px 0px 20px;color:#333;font-size:18px;padding-left:5px;width:130px;font-family:OpenSans;
+				font-weight:bold; }
+
+.kolom_submit { margin:15px 10px 0px 20px;color:#333;font-size:16px;height:34px;font-family:OpenSans;
+		padding:0px 20px 0px 20px;background-color:#222;border:hidden;color:#FFF;font-weight:bold; }
+		
+.kolom_submit:hover { border-bottom:5px solid; border-bottom-color:#CEA70C;color:#F0C40D; }
+
+.login { margin:auto;margin-top:230px; width:300px;background-color:#FAF4DF;padding-bottom:10px;}
+
+.login1 { height:30px;width:195px;background-color:#F0C40D;margin-bottom:10px;
+			border-bottom:5px solid;border-bottom-color:#CEA70C; padding:10px 10px 10px 95px;}
+
+.kolom_login { margin:12px 10px 0px 25px;color:#333;font-size:20px;padding:5px 5px 5px 5px;width:250px;
+				border:1px solid;border-color:#CEA70C;text-align:center;color:#999;font-family:OpenSans; }
+
+.kolom_submit_login { margin:15px 10px 0px 25px;color:#333;font-size:16px;height:40px;width:250px;
+		padding:0px 20px 0px 20px;background-color:#333;border:hidden;color:#FFF;font-weight:bold;font-family:OpenSans; }
+		
+.kolom_submit_login:hover { border-bottom:5px solid; border-bottom-color:#CEA70C;color:#F0C40D;font-family:OpenSans; }
+
+
+
+
+.bppanel { height:45px;width:100%;background-color:#F0C40D;position:fixed;left:0px;top:0px;
+			border-bottom:5px solid;border-bottom-color:#CEA70C;}
+.bp { width:100%;left:0px;top:0px;position:relative;}
+
+.bp1 { float:left; height:100%;width:200px;background-color:#222; position:fixed;left:0px;top:0px;}
+
+.bp11 { height:38px;width:200px;background-color:#F0C40D;border-bottom:5px solid;border-bottom-color:#CEA70C;padding-top:7px;}
+
+.bp12 { float:left;height:24px;width:200px;text-align:center;padding-top:5px;
+		border-bottom:0px solid;border-bottom-color:#FAF4DF;color:#F0C40D;font-weight:bold;}
+.bp13 { float:left;height:120px;margin:5px 0 0px 48px;border:2px solid;border-color:#CEA70C;}
+
+.bp14 { float:left;width:160px;text-align:center;padding:5px 0 5px 20px;font-size:14px;
+		border-bottom:0px solid;border-bottom-color:#FAF4DF;color:#F0C40D;font-weight:bold;}
+
+.bp141 { float:left;width:56px;text-align:center; background-color:#F0C40D;font-size:12px;
+		padding:0px 5px 0px 5px;margin-left:67px; }
+		
+.bp15 { float:left;width:180px;padding:5px 0 0px 20px;font-size:18px;
+		border-bottom:1px solid;border-bottom-color:#999;color:#FAF4DF;font-weight:bold;}
+
+.bp16 { float:left;height:24px;width:185px;padding:5px 0 5px 15px;font-size:16px;
+		border-bottom:1px solid;border-bottom-color:#999;color:#FAF4DF;font-weight:bold;}
+
+.bp16:hover { background-color:#333;color:#F0C40D;border-left:5px solid;border-left-color:#F0C40D;width:185px;
+		padding:5px 0 5px 10px;}
+
+.bp161 { float:left;height:24px; width:24px; margin-right:10px;}
+
+.judul { font-size:24px;font-weight:bold;color:#333; }
+
+
+.bp111 { margin:0px 0px 0px 40px;}
+
+
+.bp3 { float:left; width:80%;margin:15px 0 0 207px;}
+
+.bp2 { height:38px;width:100%;px;background-color:#F0C40D;border-bottom:5px solid;border-bottom-color:#CEA70C;padding-top:7px;
+		position:fixed;left:0px;top:0px;margin-left:200px;}
+
+
+.bp21 { height:30px;width:100%;margin:49px 0px 0px 8px;border-bottom:1px solid;border-bottom-color:#222;}
+
+.bp211 { float:left; width:184px;height:25px;}
+
+.bp212 { float:left; height:25px;border-right:1px solid;border-right-color:#222;color:#222;padding:5px 15px 0px 15px;}
+
+.bp212:hover { border-bottom:2px solid;border-bottom-color:#222; height:23px;;
+		font-weight:bold }
+		
+.pr1 { height:200px; }
+
+.pr11 { float:left;margin:0px 0 0px 0px;border:2px solid;border-color:#CEA70C;}
+
+.pr12 { padding:5px 0 0px 170px;height:25px;}
+.pr13 { padding:0px 0 0px 170px;font-size:30px;font-weight:bold;color:#CEA70C;}
+.pr14 { padding:0px 0 0px 170px;}
+
+.gelar { float:left;height:24px; padding:1px 10px 0 10px;background-color:#333;font-weight:bold;color:#FFF;margin-right:5px; }
+
+.pr2 { padding:3px 5px 0 10px; background-color:#222;height:28px;width:300px;font-weight:bold;color:#FFF;font-size:18px;
+	margin-top:15px; }
+
+.pr2b { padding:3px 5px 0 10px; background-color:#222;height:28px;font-weight:bold;color:#FFF;font-size:18px;
+	margin-top:15px; }
+	
+.pr3 { border-top:5px solid;border-top-color:#CEA70C;}
+
+.pr3b { border-top:5px solid;border-top-color:#CEA70C;width:550px;}
+
+.prtbl { padding:0 15px 0 10px; }
+
+.prubah { float:left;padding:0 10px 0 10px;font-weight:bold;  background-color:#222;
+		color:#FFF;margin:2px 2px 2px -8px;font-size:14px;height:22px; }
+
+.tblstd { padding:6px 15px 5px 15px;font-weight:bold;  background-color:#333;
+		color:#FFF;font-size:16px;margin-left:20px;height:23px }
+
+.tblstd:hover { border-bottom:4px solid;border-bottom-color:#CEA70C;height:19px; }		
+		
+.prhapus { float:left;padding:0 10px 0 10px;font-weight:bold;  background-color:#222;
+		color:#FFF;margin:2px 2px 2px 0px;border:hidden;font-size:14px;height:22px; }
+		
+.prubah:hover { border-bottom:3px solid;border-bottom-color:#CEA70C;height:19px; }
+.prhapus:hover { border-bottom:3px solid;border-bottom-color:#CEA70C;height:22px; }
+
+.pcr { height:60px;width:100%;margin:0px 0px 0px 8px;border-bottom:1px solid;border-bottom-color:#222;}
+
+.judul_kolom2 { color:#333;font-size:11px;font-weight:bold;}
+.kolom_input2 { color:#333;font-size:12px;width:100px;font-family:OpenSans; }
+
+.rl1 {border-bottom:5px solid;border-bottom-color:#CEA70C;border:2px solid;border-color:#222;height:122px;margin-top:10px;
+		background-color:#FAF4DF;}
+.rl11 { float:left;height:122px;border-right:2px solid; }
+.rl111 {  }
+.rl112 { height:22px;background-color:#CEA70C;text-align:center;font-weight:bold;color:#222; }
+.rl112:hover { background-color:#222;color:#FFF; }
+
+.rl12 { float:left;width:600px;height:122px; }
+.rl13 { float:right;width:150px;height:122px;border-left:2px solid; }
+
+.rl131 { height:22px;width:150px;background-color:#222;text-align:center;font-weight:bold;color:#FFF; }
+.rl132 {height:78px;text-align:center;}
+
+.pagenum { height:30px;margin:20px 0 0 0;}
+
+.pagenum1 { float:left;padding:5px 10px 0 10px; height:30px;margin:0px 10px 0px 0;background-color:#222;
+		color:#fff;font-weight:bold;}
+
+.pagenum1:hover { border-bottom:5px solid;border-bottom-color:#CEA70C;height:25px; }
+
+#plusmin { text-align:center;font-weight:bold;background-color:transparent;color:#222;width:20px; }
+
+#klmtgl { width:100px;}
+
+#angsld { font-size:40px;font-weight:bold;} 
+
+
+.prk_judul { width:100%;border-bottom:3px solid;border-bottom-color:#F0C40D;margin-left:8px;}
+
+.prk_judul1 { padding:48px 0px 5px 0;padding-left:100px;margin-left:100px;
+		font-weight:bold;color:#222;background-color:#E9DDB7;}
+	
+.judul_progress { font-size:16px;font-weight:bold;color:#333;margin:4px 0 2px 0; }	
+.progress { height:10px;width:300px;background-color:#E9DDB7;border-bottom:2px solid;border-bottom-color:#333;} 
+
+.progress_bar { float:left; height:10px;width:3px;background-color:#F0C40D;} 
+
+.dpr { height:100px;}
+
+.dpr1 { float:left;height:100px;width:600px;}
+
+.dpr2 { float:left; height:100px;width:300px;}
